@@ -1,2 +1,2 @@
 Sampleサイトです。  
-<img src="src/001.png">  
+<img src="src/001.gif">  
