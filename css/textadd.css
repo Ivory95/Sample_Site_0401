@@ -1,0 +1,127 @@
+/* single */
+.single_post{
+  font-size:18px;
+}
+.single_post p{
+}
+
+/* 主題 */
+.w1{
+  font-size:22px;
+  /* border-left:5px solid #3b4675; */
+  margin:10px 0;
+  padding:5px 8px;
+  position:relative;
+}
+.w1:before{
+  content:"";
+  height:100%;
+  position: absolute;
+  width:4px;
+  background:#acc;
+  top:0;
+  left:0;
+}
+.w1:after{
+  content:"";
+  height:50%;
+  position: absolute;
+  width:4px;
+  background:#cee;
+  bottom:0;
+  left:0;
+  z-index:2;
+}
+/* 空白 */
+.ws{
+  height:25px;
+}
+
+/* 目次 */
+.list_wrapper{
+  background:#ddd;
+  margin:60px 0;
+  padding:15px;
+  border:5px dotted #fff;
+}
+.list_h{
+  margin-left:20px;
+  padding-left:5px;
+  font-size:20px;
+  position: relative;
+}
+.list_h:before{
+  content:"";
+  height:100%;
+  position: absolute;
+  width:3px;
+  background:#fff;
+  top:0;
+  left:0;
+}
+.list_h:after{
+  content:"";
+  height:50%;
+  position: absolute;
+  width:3px;
+  background:#cee;
+  bottom:0;
+  left:0;
+  z-index:2;
+}
+.in_lists {
+  width:100%;
+  height:100%;
+  padding:20px 0;
+}
+.in_lists li{
+  margin: 15px 20px;
+  border-left:3px solid #fff;
+}
+.in_lists li > a{
+  font-size:16px;
+  padding:10px;
+  display:block;
+  position:relative;
+  width:100%;
+  transition-duration:.6s;
+}
+.in_lists li > a:before{
+  content:"";
+  position:absolute;
+  width:0;
+  height:100%;
+  left:0;
+  bottom:0;
+  background:#fff;
+  transition-duration:.3s;
+  opacity:.5;
+}
+.in_lists li > a:hover:before{
+  width:100%;
+}
+/* 画像 */
+
+/* Table css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin:15px 0;
+}
+
+tr{
+  height:35px;
+}
+td {
+  border:1px solid #000;
+  margin:0;
+  padding:10px 5px;
+  text-align:center;
+  min-width:35px;
+  cursor: default;
+}
+td:hover{
+  opacity: .8;
+  background:#eaeaea;
+  color:#000;
+}
